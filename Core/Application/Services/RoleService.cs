@@ -1,11 +1,11 @@
-﻿using Valentine.Core.Application.Interfaces.Repositories;
-using Valentine.Core.Application.Interfaces.Services;
-using Valentine.Core.Domain.Entities;
-using Valentine.Models;
-using System.Security.Claims;
+﻿using System.Security.Claims;
+using Linnked.Core.Application.Interfaces.Repositories;
+using Linnked.Core.Application.Interfaces.Services;
+using Linnked.Core.Domain.Entities;
+using Linnked.Models;
 using Linnked.Models.RoleModel;
 
-namespace Valentine.Core.Application.Services
+namespace Linnked.Core.Application.Services
 {
     public class RoleService : IRoleService
     {

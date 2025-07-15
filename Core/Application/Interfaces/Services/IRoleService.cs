@@ -1,4 +1,7 @@
 ﻿
+using Linnked.Models;
+using Linnked.Models.RoleModel;
+
 namespace Linnked.Core.Application.Interfaces.Services
 {
     public interface IRoleService
