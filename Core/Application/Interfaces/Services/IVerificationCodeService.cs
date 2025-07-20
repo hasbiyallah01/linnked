@@ -12,3 +12,5 @@ namespace Linnked.Core.Application.Interfaces.Services
         Task<BaseResponse<bool>> IsOtpVerified(int userId);
     }
 }
+
+
