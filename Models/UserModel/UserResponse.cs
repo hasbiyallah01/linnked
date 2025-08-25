@@ -1,5 +1,4 @@
-﻿using Valentine.Core.Domain.Entities;
-using Valentine.Core.Domain.Enum;
+﻿
 
 namespace Linnked.Models.UserModel
 {

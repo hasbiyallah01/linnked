@@ -1,6 +1,5 @@
 ﻿using Linnked.Core.Domain.Entities;
 using Linnked.Models;
-using Linnked.Models;
 
 
 public interface IEmailService

@@ -32,7 +32,7 @@ namespace Linnked.Core.Application.Services
                             <img src='{imageUrl}' alt='Welcome to Linnked' style='max-width: 100%; height: auto;' />
                         </div>
                         <p>You're now part of a world where sending cute, thoughtful messages is effortless.</p>
-                        <p>Whether it’s love, friendship, or just a little appreciation, Linnked makes every message memorable. And guess what? We’re starting with Linnked’s! ❤️</p>
+                        <p>Whether it’s love, friendship, or just a little appreciation, Linnked makes every message memorable. And guess what? We’re starting with Valentine’s! ❤️</p>
 
                         <h3>What's Next?</h3>
                         <ul>
@@ -81,7 +81,7 @@ namespace Linnked.Core.Application.Services
                                     <img src='{imageUrl}' alt='Message Accepted' style='max-width: 100%; height: auto;' />
                                 </div>
                                 <p>Hey {message.SenderFirstName},</p>
-                                <p>Great news! {message.RecipientFirstName} has accepted your message—looks like you’ve got a Linnked (or just made their day)! 💖</p>
+                                <p>Great news! {message.RecipientFirstName} has accepted your message—looks like you’ve got a Valentine (or just made their day)! 💖</p>
 
                                 <p>Now, let’s make it official—share your Linnked moment on social media & tag us! The world deserves to see this!</p>
                                 <ul>
@@ -254,7 +254,7 @@ namespace Linnked.Core.Application.Services
                             <img src='{imageUrl}' alt='Welcome to Linnked' style='max-width: 100%; height: auto;' />
                         </div>
                         <p>You're now part of a world where sending cute, thoughtful messages is effortless.</p>
-                        <p>Whether it’s love, friendship, or just a little appreciation, Linnked makes every message memorable. And guess what? We’re starting with Linnked’s! ❤️</p>
+                        <p>Whether it’s love, friendship, or just a little appreciation, Linnked makes every message memorable. And guess what? We’re starting with Valentine’s! ❤️</p>
 
                         <h3>What's Next?</h3>
                         <ul>
@@ -287,105 +287,7 @@ namespace Linnked.Core.Application.Services
                 IsSuccessful = true,
             };
         }
-
-
-
     }
 
 
 }
-/*public async Task<BaseResponse> SendAcceptanceEmailAsync(Message message)
-        {
-            var mailRecieverRequestDto = new MailRecieverDto
-            {
-                Email = message.SenderEmail,
-                Name = message.SenderFirstName
-            };
-
-            string imageUrl = "https://drive.google.com/file/d/1rxU2RCSH2GPN_0QKgcd8ZfB_DH1TZSf8/view?usp=sharing"; 
-
-            string emailBody = $@"
-                                <div style='text-align: center;'>
-                                    <img src='{imageUrl}' alt='Message Accepted' style='max-width: 100%; height: auto;' />
-                                </div>
-                                <p>Hey {message.SenderFirstName},</p>
-                                <p>Great news! {message.RecipientFirstName} has accepted your message—looks like you’ve got a Linnked (or just made their day)! 💖</p>
-        
-                                <p>Now, let’s make it official—share your Linnked moment on social media & tag us! The world deserves to see this!</p>
-                                <ul>
-                                    <li>Tag us on X: <a href='https://x.com/hellolinnked' target='_blank'>@hellolinnked</a></li>
-                                </ul>
-        
-                                <p>Enjoy the moment! More cute messages, more love, and more Linnks ahead. ❤️</p>
-        
-                                <p>— The Linnked Team</p>
-        
-                                <h3>Share this Moment</h3>
-                                <a href='https://linnked.vercel.app' style='padding: 10px 15px; background-color: #ff5c5c; color: white; text-decoration: none; border-radius: 5px;'>Share this Moment</a>
-                            ";
-
-            var mailRequest = new MailRequests
-            {
-                Body = emailBody,
-                Title = "Congratulations! Your message has been accepted 🎉",
-                HtmlContent = emailBody
-            };
-
-            await SendEmailAsync(mailRecieverRequestDto, mailRequest);
-
-            return new BaseResponse
-            {
-                Message = "Acceptance email sent successfully",
-                IsSuccessful = true,
-            };
-        }*/
-
-
-/*public async Task<BaseResponse> SendWelcomeEmailAsync(Message message)
-        {
-            var mailRecieverRequestDto = new MailRecieverDto
-            {
-                Email = message.SenderEmail,
-                Name = message.SenderFirstName
-            };
-
-            string imageUrl = "https://drive.google.com/file/d/1s-p-LPh2ZZqQc_N39LVTDEpZpmk1V9jE/view?usp=drive_link"; 
-
-            string emailBody = $@"
-                                <div style='text-align: center;'>
-                                    <img src='{imageUrl}' alt='Welcome to Linnked' style='max-width: 100%; height: auto;' />
-                                </div>
-                                <p>You're now part of a world where sending cute, thoughtful messages is effortless.</p>
-                                <p>Whether it’s love, friendship, or just a little appreciation, Linnked makes every message memorable. And guess what? We’re starting with Linnked’s! ❤️</p>
-        
-                                <h3>What's Next?</h3>
-                                <ul>
-                                    <li>Create a message - Pick your words or let AI help you!</li>
-                                    <li>Share your link - Send it in seconds.</li>
-                                    <li>Get a response - A sweet “Yes” or... well, maybe next time.</li>
-                                </ul>
-        
-                                <h3>Spread the Love!</h3>
-                                <p>Share your Linnked experience and tag us on:
-                                    <a href='https://www.linkedin.com/company/linnked/posts/?feedView=all' target='_blank'>LinkedIn</a> and 
-                                    <a href='https://x.com/hellolinnked' target='_blank'>X</a>.
-                                </p>
-        
-                                <h3>Start Linnking Now</h3>
-                                <a href='https://linnked.vercel.app' style='padding: 10px 15px; background-color: #ff5c5c; color: white; text-decoration: none; border-radius: 5px;'>Send a Message</a>";
-
-            var mailRequest = new MailRequests
-            {
-                Body = emailBody,
-                Title = "🎉 Welcome to Linnked! ❤️",
-                HtmlContent = emailBody
-            };
-
-            await SendEmailAsync(mailRecieverRequestDto, mailRequest);
-
-            return new BaseResponse
-            {
-                Message = "Welcome email sent successfully",
-                IsSuccessful = true,
-            };
-        }*/

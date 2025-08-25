@@ -1,5 +1,4 @@
 ﻿
-using Valentine.Core.Domain.Enum;
 using System.ComponentModel.DataAnnotations;
 
 namespace Linnked.Models.UserModel
