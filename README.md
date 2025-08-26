@@ -83,4 +83,4 @@ The importance of trust and user experience in social platforms
 How to structure flows that encourage positive, meaningful student interactions
 
 ✨ With Linnked, I learned that building social tools isn’t just about the technology—it’s about creating safe spaces where people feel confident to express themselves.
-https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
