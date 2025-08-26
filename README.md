@@ -1,19 +1,55 @@
-🌸 Linnked
-“Send a meaningful message – with a Linnk.”
+🌸 Linnked – Send a meaningful message, with a Linnk
 
-Linnked is a platform designed to anonymously match students on Valentine’s Day (and beyond), using smart prompts and class-based interests to help them send meaningful messages while keeping interactions safe, exciting, and context-aware.
+Linnked is a playful yet thoughtful platform designed to help students build meaningful social connections in a safe and exciting way.
+
+Inspired by Valentine’s Day (but made for any time of the year), Linnked lets students send anonymous, heartfelt, or fun messages through smart prompts and shared academic interests. By keeping identities hidden until there’s mutual consent, the platform ensures that interactions are joyful, safe, and respectful.
 
 🚀 What is Linnked?
-Linnked is currently in development.
 
-The vision is to create an anonymous student matching platform where students can:
+Linnked is an anonymous student matching and messaging platform currently in development.
 
-✅ Sign up securely using their student emails
-✅ Answer fun, smart prompts to build personality profiles
-✅ Send meaningful messages anonymously to someone they love
-✅ Receive a response if the recipient approves the Linnk
-✅ Reveal identities only if both parties agree
+The platform helps students:
+✅ Sign up securely with verified student emails
+✅ Express personality by answering fun, smart prompts
+✅ Send anonymous messages to someone they admire or care about
+✅ Give/receive meaningful responses if the recipient approves the Linnk
+✅ Choose to reveal identities only when both parties agree
 
-With Linnked, you can send a message to someone you love anonymously, and if they approve it, you get a response, opening the door for a joyful, safe connection.
+🌸 Think of it as a safe, fun, and meaningful way to spark new friendships, connections, and joyful moments in schools and universities.
 
-The goal is to build joyful, safe, and meaningful social connections in academic environments during Valentine’s Day or similar events.
+🎯 Why Linnked?
+
+Most student matching platforms focus on random pairings or generic chats. Linnked is different:
+📝 Context-aware prompts → Messages aren’t random; they’re guided by smart, personality-driven prompts.
+🔒 Privacy first → All signups are verified with student emails, and identities are never revealed unless both users opt in.
+💌 Meaningful connections → Designed for students who want to go beyond shallow interactions.
+🎉 Event-based fun → Perfect for Valentine’s Day, campus events, or just for sparking joy on ordinary days.
+
+🌟 How it Works
+Sign Up → Students register using their school email to ensure a trusted environment.
+Build Profile → Answer fun, engaging prompts to shape your personality profile.
+Send a Linnk → Write a heartfelt or playful anonymous message to someone.
+Wait for Approval → If the recipient likes the Linnk, they can respond.
+Reveal (Optional) → If both parties agree, identities are revealed and the connection goes beyond anonymous.
+
+🛠️ Development Status
+Linnked is currently in active development 🚧.
+Features being built include:
+Secure email-based authentication
+Anonymous messaging with moderation tools
+Prompt-driven profile system
+Approval-based response flow
+Optional identity reveal system
+Stay tuned for updates as we bring Linnked to life!
+
+🤝 Contributing
+We’re excited to grow Linnked with the help of developers, designers, and students who believe in safe and meaningful social connections.
+Ways to contribute:
+Report issues or suggest features
+Help refine the prompt and matching system
+Contribute to design, development, or testing
+
+📌 Vision
+To make academic spaces more joyful by empowering students to connect meaningfully, whether through Valentine’s Day surprises, event-driven matches, or everyday anonymous messages that brighten someone’s day.
+
+✨ With Linnked, you don’t just send a message—you send a meaningful moment.
