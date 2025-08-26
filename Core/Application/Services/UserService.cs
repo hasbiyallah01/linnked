@@ -4,6 +4,7 @@ using Google.Apis.Auth;
 using Linnked.Core.Application.Interfaces.Repositories;
 using Linnked.Models;
 using Linnked.Models.UserModel;
+using Linnked.Core.Domain.Entities;
 
 namespace Linnked.Core.Application.Services
 {

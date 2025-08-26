@@ -1,4 +1,4 @@
-﻿using Valentine.Core.Domain.Entities;
+﻿using Linnked.Core.Domain.Entities;
 
 namespace Linnked.Core.Application.Interfaces.Services
 {

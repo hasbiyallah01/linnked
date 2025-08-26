@@ -1,4 +1,6 @@
 ﻿
+using Linnked.Core.Domain.Entities;
+
 namespace Linnked.Core.Application.Interfaces.Repositories
 {
     public interface IPreferenceRepository

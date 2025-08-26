@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Linnked.Core.Application.Interfaces.Repositories;
+using Linnked.Core.Domain.Entities;
 
 
 namespace Linnked.Infrastructure.Repositories

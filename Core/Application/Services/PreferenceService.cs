@@ -1,5 +1,6 @@
 ﻿using Linnked.Core.Application.Interfaces.Repositories;
 using Linnked.Core.Application.Interfaces.Services;
+using Linnked.Core.Domain.Entities;
 namespace Linnked.Core.Application.Services
 {
     public class PreferenceService : IPreferenceService
