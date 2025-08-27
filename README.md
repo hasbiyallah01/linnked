@@ -1,4 +1,5 @@
-Linnked Send a meaningful message, with a Linnk
+# Linnked Send a meaningful message, with a Linnk
+
 Linnked is an anonymous student matching + messaging app.
 You can send someone an anonymous “Linnk” (a message), and if they accept, they can reply. If both people agree, their identities get revealed. The whole idea is to make Valentine’s Day (or any day) on campus more fun, safe, and meaningful.
 
