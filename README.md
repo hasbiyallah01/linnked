@@ -21,14 +21,15 @@ Then teh receiver clicks on the link and sees the message and decides to accept 
 Clone this repo
 # Clone this repo
 git clone https://github.com/hasbiyallah01/linnked.git
+
 cd linnked
 
 # Install dependencies
 dotnet restore
 
 # Set environment variables
-# Example:
-# Host=localhost;Port=5432;Database=linnked;Username=postgres;Password=yourpassword
+Example:
+Host=localhost;Port=5432;Database=linnked;Username=postgres;Password=yourpassword
 
 # Update migration
 dotnet ef database update
