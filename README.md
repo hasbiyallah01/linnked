@@ -26,8 +26,9 @@ cd linnked
 # Install dependencies
 dotnet restore
 
-# Set your environment variables (replace with your own values):
-e.g Host=localhost;Port=5432;Database=linnked;Username=postgres;Password=yourpassword
+# Set environment variables
+# Example:
+# Host=localhost;Port=5432;Database=linnked;Username=postgres;Password=yourpassword
 
 # Update migration
 dotnet ef database update
@@ -42,7 +43,7 @@ http://localhost:7205/
 I wanted to make something fun for students that isn’t just another random chat app. Most people are shy about expressing themselves, so Linnked gives them a way to do it anonymously, with privacy and consent built in.
 
 🙃 Struggles / Learnings
-Designing the approval/reveal flow took a lot of iteration because when I completed the project I sent it to my class group to use it, they used it to an extent where my daily 500 email limit from SMTP got exhausted they people started thinking their crush dislike them because they weren't able to get an email response, I had to remove the first welcoome email which is attacked below so each user just get email based on the number of link they had generated instead of a welcome email to everyne who comes onboard and had to track the calls to the service so once its 500 it uses another secret key and start sending the emails and that worked perfectly.
+Designing the approval/reveal flow took a lot of iteration because when I completed the project I sent it to my class group to use it, they used it to an extent where my daily 500 email limit from SMTP got exhausted they people started thinking their crush dislike them because they weren't able to get an email response, I had to remove the first welcoome email which is attached below so each user just get email based on the number of link they had generated instead of a welcome email to everyone who comes onboard and had to track the calls to the service so I implemented key rotation to switch SMTP keys once a limit is reached..
 Learned a ton about privacy-first design, user trust, and structuring social apps.
 <img width="1338" height="719" alt="image" src="https://github.com/user-attachments/assets/ff123908-1594-493c-82a3-f1efb0d2d8bb" />
 
