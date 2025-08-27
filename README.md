@@ -20,7 +20,7 @@ Then teh receiver clicks on the link and sees the message and decides to accept 
 
 Clone this repo
 # Clone this repo
-git clone https://github.com/your-username/linnked.git
+git clone https://github.com/hasbiyallah01/linnked.git
 cd linnked
 
 # Install dependencies
