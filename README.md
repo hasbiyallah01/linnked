@@ -4,18 +4,28 @@ You can send someone an anonymous “Linnk” (a message), and if they accept, t
 
 Tech Stack
 Backend: C# / .NET
+
 Database: (Postgres sql hosted on render)
+
 Deployed on azure
+
 Authentication is email-based (people sign up with emails only).
+
 AI: OpenAI (for generating messages from prompts)
+
 Email Delivery: Google SMTP service
 
 Features
 Email signup 
+
 Prompt-driven profiles → makes messages more personal
+
 You can either type your message in yourself or ask AI to do that for you by giving a brief decription of who the person is
+
 Then you can state your preference if you want it to be multi paged or single paged, the font and several other stuufff
-You can the share the link or download the falsh cardsss
+
+You can the share the link or download the flash cardsss
+
 Then teh receiver clicks on the link and sees the message and decides to accept or reject and you get their response in your email.
 
 # Clone this repo
