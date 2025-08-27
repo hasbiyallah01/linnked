@@ -18,7 +18,6 @@ Then you can state your preference if you want it to be multi paged or single pa
 You can the share the link or download the falsh cardsss
 Then teh receiver clicks on the link and sees the message and decides to accept or reject and you get their response in your email.
 
-Clone this repo
 # Clone this repo
 git clone https://github.com/hasbiyallah01/linnked.git
 
