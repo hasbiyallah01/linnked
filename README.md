@@ -1,58 +1,55 @@
-🌸 Linnked Send a meaningful message, with a Linnk
+Linnked Send a meaningful message, with a Linnk
+Linnked is an anonymous student matching + messaging app.
+You can send someone an anonymous “Linnk” (a message), and if they accept, they can reply. If both people agree, their identities get revealed. The whole idea is to make Valentine’s Day (or any day) on campus more fun, safe, and meaningful.
 
-Linnked is a fun little project I’m working on to help students connect in a safe, exciting, and meaningful way.
+Tech Stack
+Backend: C# / .NET
+Database: (Postgres sql hosted on render)
+Deployed on azure
+Authentication is email-based (people sign up with emails only).
+AI: OpenAI (for generating messages from prompts)
+Email Delivery: Google SMTP service
 
-It started with Valentine’s Day in mind, but honestly, it’s something that works any time of the year. With Linnked, you can send someone an anonymous, thoughtful, or even playful message using fun prompts and shared interests. If they like it, they can reply and if both people are into it, they can choose to reveal who they are. It’s all about creating safe, joyful moments instead of awkward or random interactions.
+Features
+Email signup 
+Prompt-driven profiles → makes messages more personal
+You can either type your message in yourself or ask AI to do that for you by giving a brief decription of who the person is
+Then you can state your preference if you want it to be multi paged or single paged, the font and several other stuufff
+You can the share the link or download the falsh cardsss
+Then teh receiver clicks on the link and sees the message and decides to accept or reject and you get their response in your email.
 
-What is Linnked?
-Linnked is an anonymous messaging platform that’s still in development. Here’s what you can do for now:
--Sign up with your school email (so it’s safe and trusted)
--Answer fun prompts that show off your personality
--Send a Linnk (an anonymous message) to someone you admire
--Get a reply only if they approve your Linnk
--Download the flashvcards of your message
--decide the format and preference of the way you wnat the message to render
+Clone this repo
+# Clone this repo
+git clone https://github.com/your-username/linnked.git
+cd linnked
 
-It’s like passing a note in class but safer, smarter, and more fun.
+# Install dependencies
+dotnet restore
 
-Why Linnked?
-Most apps just throw people into random chats. That’s not what I wanted. Linnked is built to be:
-Personal → guided by prompts, not generic “hey” messages
-Safe → verified with emails + no forced reveals
-Meaningful → for students who actually want deeper connections
-Fun → perfect for Valentine’s Day, campus events, or just making someone smile on a random Tuesday
+# Set your environment variables (replace with your own values):
+e.g Host=localhost;Port=5432;Database=linnked;Username=postgres;Password=yourpassword
 
-How it Works
-Sign up with your email
-Answer prompts to make your profile fun and unique
-Send a Linnk (your anonymous message)
-Wait for approval → they get to decide if they want to reply
-Download your message and decide to keep them
+# Update migration
+dotnet ef database update
 
-Where It’s At
-Linnked is still in development . Right now I’m working on:
-Anonymous messaging + moderation
-Prompt-driven profiles
-The approval/reveal flow
-The reveal of personality
+# Run the project
+dotnet run
 
-My Reflection
-What It Is
-Linnked is basically my attempt at creating a safe, fun way for students to connect—kind of like a digital Valentine’s note, but with privacy built in.
+The app should running at:
+http://localhost:7205/
 
-Why I Made It
-I’ve seen how hard it can be for students to express themselves, and I wanted to make something that helps break that wall without making anyone uncomfortable. The goal was simple: let people share feelings in a way that’s fun, lighthearted, and safe.
+📖 Why I Built This
+I wanted to make something fun for students that isn’t just another random chat app. Most people are shy about expressing themselves, so Linnked gives them a way to do it anonymously, with privacy and consent built in.
 
-How I Built It
-I focused on three things:
-Safety → verified emails
-Personality → smart prompts
-Control → anonymous messages + consent-based reveals
+🙃 Struggles / Learnings
+Designing the approval/reveal flow took a lot of iteration because when I completed the project I sent it to my class group to use it, they used it to an extent where my daily 500 email limit from SMTP got exhausted they people started thinking their crush dislike them because they weren't able to get an email response, I had to remove the first welcoome email which is attacked below so each user just get email based on the number of link they had generated instead of a welcome email to everyne who comes onboard and had to track the calls to the service so once its 500 it uses another secret key and start sending the emails and that worked perfectly.
+Learned a ton about privacy-first design, user trust, and structuring social apps.
+<img width="1338" height="719" alt="image" src="https://github.com/user-attachments/assets/ff123908-1594-493c-82a3-f1efb0d2d8bb" />
 
-Struggles & Learnings
-Struggles: Balancing fun with safety, avoiding spam, and making sure prompts encourage real connections instead of generic “hi’s.”
 
-Learnings: I discovered how important trust is in building social apps, how to design privacy first flows, and how even small features (like prompts) can totally shape the kind of interactions people have.
+📌 Credits
+Inspired by Valentine’s Day campus events and similar “matching” apps.
+Built as a personal learning project and to my amazing friends and classmates that supported you're the bessstt
 
-Honestly, working on Linnked has taught me that social tools aren’t just about code, they’re about making people feel comfortable enough to be themselves.
+That’s it. It’s still in development, so expect things to break.
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
